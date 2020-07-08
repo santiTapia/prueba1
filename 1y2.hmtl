@@ -1,0 +1,27 @@
+
+
+/*EJRCICIO 1*/
+
+nombre =prompt("Escribe tu nombre: ")
+
+apellidos =prompt("Escribe tus apellidos: ");
+
+nombre=nombre.fontcolor("blue");
+
+apellidos=apellidos.fontcolor("green");
+
+texto1=("El mes pasado ");
+
+texto2=(" se compró un coche de color rojo.")
+
+texto_final=texto1.concat(nombre, apellidos, texto2);
+
+document.write(texto_final); 
+
+
+/*EJERCICIO 2*/
+
+texto_final=texto_final.toUpperCase();
+
+document.write(texto_final);
+
