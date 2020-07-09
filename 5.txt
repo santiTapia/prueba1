@@ -1,0 +1,52 @@
+
+
+
+/*EJERCICIO 5*/
+
+var personaje1= {
+	
+	"nombre": "Quique",
+	"edad": 22,
+	"poder": "fuego",
+	"aficiones": ["waterpolo","bici","hiking","leer"],
+	"debilidad": "agua",
+}
+
+var personaje2= {
+	
+	"nombre": "Rodolfo",
+	"edad": 12,
+	"poder": "viento",
+	"aficiones": ["volar","nadar","correr","pescar"],
+	"debilidad": "tierra", 
+}
+
+var personaje3= {
+	
+	"nombre": "Alvaro",
+	"edad": 25,
+	"poder": "agua",
+	"aficiones": ["informatica","futbol","play"],
+	"debilidad": "fuego",
+}
+
+var personaje4= {
+	
+	"nombre": "Massi",
+	"edad": 57,
+	"poder": "tierra",
+	"aficiones": ["dormir","caminar","descansar","reposar"],
+	"debilidad": "agua",
+}
+
+
+var array=[personaje1, personaje2, personaje3, personaje4];
+
+console.log(array[0].nombre);
+
+console.log(array[3].aficiones[1]);
+
+console.log(array[0].poder);
+
+console.log(array[2].aficiones[2]);
+
